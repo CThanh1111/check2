@@ -15,7 +15,7 @@ var mineflayer = require('mineflayer')
 // };
 let ip = "2y2c.org"
 
-let username = "Duckiii"
+let username = "0ZombieMan0"
 
 
 let ver = "1.12.2" 
@@ -170,7 +170,7 @@ function createBot () {
       })
     })
   bot.on('message', message => {
-      let channel = client.channels.cache.get(`854712390817808404`)
+      let channel = client.channels.cache.get(`939114418623619143`)
       if (!channel) return;
       const cn = new MessageEmbed()
           .setDescription(`${message}`)
@@ -178,13 +178,13 @@ function createBot () {
 
   })
   bot.on('kicked', function() {
-    let channel = client.channels.cache.get(`854712390817808404`)
+    let channel = client.channels.cache.get(`939114418623619143`)
       if (!channel) return;
       const cn3 = new MessageEmbed()
               .setColor('F90000')
               .setDescription(`Bot đã bị disconnect khỏi ${ip}`)
           channel.send(cn3);
-      setTimeout(createBot, 190000)
+      setTimeout(createBot, 180000)
     })      
     // bot.on('end', function () {
     //   console.log('ended')
