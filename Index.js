@@ -13,9 +13,9 @@ var mineflayer = require('mineflayer')
 //   username: "KenPro147",
 //   ver: "1.12.2"
 // };
-let ip = "2y2c.org"
+let ip = "anarchyvn.net"
 
-let username = "0ZombieMan0"
+let username = "PrinceLakeVN"
 
 
 let ver = "1.12.2" 
@@ -150,7 +150,7 @@ function createBot () {
     bot.clickWindow(v, 0, 0)
     bot.clickWindow(f, 0, 0);
 
-    setTimeout(() => {bot.chat('/2y2c')}, 15 * 1000)
+    setTimeout(() => {bot.chat('/anarchyvn')}, 15 * 1000)
     setTimeout(() => { bot.clickWindow(10, 0, 0) }, 20 * 1000)
   }) 
   process.setMaxListeners(0);
