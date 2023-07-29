@@ -53,14 +53,14 @@ function createBot () {
 
 
   bot.on('login', async () => {
-    let channel = client.channels.cache.get(`1134519612969590906`)
+    let channel = client.channels.cache.get(`939114418623619143`)
     console.log(`nice ${username}`);
     bot.once('spawn', () => { 
         channel.send(`EZ PIN ${a} ${b} ${c} ${d} (ingame: ${username})`)
       })
     })
   bot.on('message', message => {
-      let channel = client.channels.cache.get(`1134519612969590906`)
+      let channel = client.channels.cache.get(`939114418623619143`)
       if (!channel) return;
       const cn = new MessageEmbed()
           .setDescription(`${message}`)
@@ -68,7 +68,7 @@ function createBot () {
 
   })
   bot.on('kicked', function() {
-    let channel = client.channels.cache.get(`1134519612969590906`)
+    let channel = client.channels.cache.get(`939114418623619143`)
       if (!channel) return;
       const cn3 = new MessageEmbed()
               .setColor('F90000')
