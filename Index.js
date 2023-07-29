@@ -15,7 +15,7 @@ var mineflayer = require('mineflayer')
 // };
 let ip = "anarchyvn.net"
 
-let username = "PrinceLakeVN"
+let username = "memaybeo12312"
 
 
 let ver = "1.12.2" 
